@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "CGCgw1TOpquKG+Xb1ynotkIOl04r20L0sqeeprxkfg0=",
+  "Source": "ChatAppServer.WebAPI",
+  "BasePath": "_content/ChatAppServer.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChatAppServer.WebAPI\\wwwroot",
+      "Source": "ChatAppServer.WebAPI",
+      "ContentRoot": "D:\\STUDYED\\NET2024\\appchat3\\Harmony-Chat-old-server\\ChatAppServer.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ChatAppServer.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\STUDYED\\NET2024\\appchat3\\Harmony-Chat-old-server\\ChatAppServer.WebAPI\\wwwroot\\avatars\\example.jpg",
+      "SourceId": "ChatAppServer.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\STUDYED\\NET2024\\appchat3\\Harmony-Chat-old-server\\ChatAppServer.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ChatAppServer.WebAPI",
+      "RelativePath": "avatars/example#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ltfr8yrqfa",
+      "Integrity": "J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\avatars\\example.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "avatars/example.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\Harmony-Chat-old-server\\ChatAppServer.WebAPI\\wwwroot\\avatars\\example.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 06:57:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/example.ltfr8yrqfa.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\Harmony-Chat-old-server\\ChatAppServer.WebAPI\\wwwroot\\avatars\\example.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 06:57:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ltfr8yrqfa"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/example.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA="
+        }
+      ]
+    }
+  ]
+}
