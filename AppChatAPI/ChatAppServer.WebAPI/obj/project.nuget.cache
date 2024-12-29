@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FgbBf5iXhH4=",
+  "dgSpecHash": "7T3xJ+Xztm8=",
   "success": true,
-  "projectFilePath": "D:\\STUDYED\\NET2024\\appchat3\\Harmony-Chat-old-server\\ChatAppServer.WebAPI\\ChatAppServer.WebAPI.csproj",
+  "projectFilePath": "D:\\STUDYED\\NET2024\\AppChat\\AppChatAPI\\ChatAppServer.WebAPI\\ChatAppServer.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
