@@ -1,7 +1,9 @@
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 <div class="admin-dashboard">
   <header class="admin-header">
     <h2>User Management</h2>
-    <button class="logout-btn" (click)="signOut()">Logout</button>
+    <button class="logout-btn" (click)="signOut()"><i class="bx bx-log-out bx-rotate-180"></i></button>
   </header>
 
   <table>
@@ -19,8 +21,12 @@
       <td>{{ user.email }}</td>
       <td>{{ user.isLocked ? 'Locked' : 'Active' }}</td>
       <td>
-        <button class="action-btn" (click)="lockUser(user.id)" [disabled]="user.isLocked">Lock</button>
-        <button class="action-btn" (click)="unlockUser(user.id)" [disabled]="!user.isLocked">Unlock</button>
+        <button class="action-btn lock-btn" (click)="lockUser(user.id)" [disabled]="user.isLocked">
+          <i class="bx bx-lock"></i> Lock
+        </button>
+        <button class="action-btn unlock-btn" (click)="unlockUser(user.id)" [disabled]="!user.isLocked">
+          <i class="bx bx-lock-open"></i> Unlock
+        </button>
       </td>
     </tr>
     </tbody>
