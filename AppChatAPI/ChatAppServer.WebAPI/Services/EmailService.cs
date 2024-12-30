@@ -86,12 +86,12 @@ public class EmailService : IEmailService
             <style>
                 body {{ font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }}
                 .container {{ width: 100%; padding: 20px; background-color: #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 600px; margin: 20px auto; }}
-                .header {{ background-color: #4CAF50; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
+                .header {{ background-color: #329cd1; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
                 .content {{ padding: 20px; }}
                 .content h2 {{ color: #333333; }}
                 .content p {{ line-height: 1.6; color: #666666; }}
                 .footer {{ margin-top: 20px; text-align: center; font-size: 12px; color: #999999; }}
-                .footer a {{ color: #4CAF50; text-decoration: none; }}
+                .footer a {{ color: #329cd1; text-decoration: none; }}
             </style>
         </head>
         <body>
@@ -99,18 +99,18 @@ public class EmailService : IEmailService
                 <div class='header'>
                     <h1>Welcome to Harmony Chat</h1>
                 </div>
-                <div class='content'>
-                    <h2>Hello {username},</h2>
-                    <p>Thank you for registering at our site! We're excited to have you on board.</p>
-                    <p>If you have any questions, feel free to <a href='mailto:harmonyteam104@gmail.com'>contact us</a>.</p>
+               <div class='content'>
+                    <h2>Chào {username},</h2>
+                    <p>Cảm ơn bạn đã đăng ký tại trang web của chúng tôi! Chúng tôi rất vui khi có bạn tham gia.</p>
+                    <p>Nếu bạn có bất kỳ câu hỏi nào, vui lòng <a href='mailto:dhhceramic@gmail.com'>liên hệ với chúng tôi</a>.</p>
                     <br>
-                    <p>Best regards,</p>
-                    <p>The Harmony Team</p>
-                </div>
-                <div class='footer'>
-                    <p>&copy; {DateTime.Now.Year} Harmony. All rights reserved.</p>
-                    <p><a href='https://yourapp.com/privacy'>Privacy Policy</a> | <a href='https://yourapp.com/terms'>Terms of Service</a></p>
-                </div>
+                    <p>Trân trọng,</p>
+                    <p>Đội ngũ Appchat</p>
+               </div>
+               <div class='footer'>
+                    <p>&copy; {DateTime.Now.Year} Appchat. Bảo lưu tất cả quyền.</p>
+                    <p><a href='https://yourapp.com/privacy'>Chính sách bảo mật</a> | <a href='https://yourapp.com/terms'>Điều khoản dịch vụ</a></p>
+               </div>
             </div>
         </body>
         </html>";
@@ -124,13 +124,13 @@ public class EmailService : IEmailService
             <style>
                 body {{ font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }}
                 .container {{ width: 100%; padding: 20px; background-color: #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 600px; margin: 20px auto; }}
-                .header {{ background-color: #4CAF50; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
+                .header {{ background-color: #329cd1; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
                 .content {{ padding: 20px; }}
                 .content h2 {{ color: #333333; }}
                 .content p {{ line-height: 1.6; color: #666666; }}
                 .footer {{ margin-top: 20px; text-align: center; font-size: 12px; color: #999999; }}
-                .footer a {{ color: #4CAF50; text-decoration: none; }}
-                .button {{ display: inline-block; padding: 10px 20px; margin: 20px 0; font-size: 16px; color: #ffffff; background-color: #4CAF50; border-radius: 5px; text-decoration: none; color: white; }}
+                .footer a {{ color: #329cd1; text-decoration: none; }}
+                .button {{ display: inline-block; padding: 10px 20px; margin: 20px 0; font-size: 16px; color: #ffffff; background-color: #329cd1; border-radius: 5px; text-decoration: none; color: white; }}
             </style>
         </head>
         <body>
@@ -139,17 +139,17 @@ public class EmailService : IEmailService
                     <h1>Password Reset Request</h1>
                 </div>
                 <div class='content'>
-                    <h2>Hello,</h2>
-                    <p>We received a request to reset your password. Click the button below to reset your password.</p>
-                    <p><a href='{resetLink}' class='button' style='color: white;'>Reset Password</a></p>
-                    <p>If you did not request a password reset, please ignore this email.</p>
+                    <h2>Chào,</h2>
+                    <p>Chúng tôi đã nhận được yêu cầu đặt lại mật khẩu của bạn. Nhấn vào nút dưới đây để đặt lại mật khẩu.</p>
+                    <p><a href='{resetLink}' class='button' style='color: white;'>Đặt lại mật khẩu</a></p>
+                    <p>Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này.</p>
                     <br>
-                    <p>Best regards,</p>
-                    <p>The Harmony Team</p>
+                    <p>Trân trọng,</p>
+                    <p>Đội ngũ Appchat</p>
                 </div>
                 <div class='footer'>
-                    <p>&copy; {DateTime.Now.Year} Harmony. All rights reserved.</p>
-                    <p><a href='https://yourapp.com/privacy'>Privacy Policy</a> | <a href='https://yourapp.com/terms'>Terms of Service</a></p>
+                    <p>&copy; {DateTime.Now.Year} Appchat. Bảo lưu tất cả quyền.</p>
+                    <p><a href='https://yourapp.com/privacy'>Chính sách bảo mật</a> | <a href='https://yourapp.com/terms'>Điều khoản dịch vụ</a></p>
                 </div>
             </div>
         </body>
@@ -164,12 +164,12 @@ public class EmailService : IEmailService
             <style>
                 body {{ font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }}
                 .container {{ width: 100%; padding: 20px; background-color: #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 600px; margin: 20px auto; }}
-                .header {{ background-color: #4CAF50; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
+                .header {{ background-color: #329cd1; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
                 .content {{ padding: 20px; }}
                 .content h2 {{ color: #333333; }}
                 .content p {{ line-height: 1.6; color: #666666; }}
                 .footer {{ margin-top: 20px; text-align: center; font-size: 12px; color: #999999; }}
-                .footer a {{ color: #4CAF50; text-decoration: none; }}
+                .footer a {{ color: #329cd1; text-decoration: none; }}
             </style>
         </head>
         <body>
@@ -178,15 +178,15 @@ public class EmailService : IEmailService
                     <h1>Password Changed</h1>
                 </div>
                 <div class='content'>
-                    <h2>Hello {username},</h2>
-                    <p>Your password has been changed successfully. If you did not make this change, please contact our support team immediately.</p>
+                    <h2>Chào {username},</h2>
+                    <p>Mật khẩu của bạn đã được thay đổi thành công. Nếu bạn không thực hiện thay đổi này, vui lòng liên hệ ngay với bộ phận hỗ trợ của chúng tôi.</p>
                     <br>
-                    <p>Best regards,</p>
-                    <p>The Harmony Team</p>
+                    <p>Trân trọng,</p>
+                    <p>Đội ngũ Appchat</p>
                 </div>
                 <div class='footer'>
-                    <p>&copy; {DateTime.Now.Year} Harmony. All rights reserved.</p>
-                    <p><a href='https://yourapp.com/privacy'>Privacy Policy</a> | <a href='https://yourapp.com/terms'>Terms of Service</a></p>
+                    <p>&copy; {DateTime.Now.Year} Appchat. Bảo lưu tất cả quyền.</p>
+                    <p><a href='https://yourapp.com/privacy'>Chính sách bảo mật</a> | <a href='https://yourapp.com/terms'>Điều khoản dịch vụ</a></p>
                 </div>
             </div>
         </body>
@@ -201,12 +201,12 @@ public class EmailService : IEmailService
             <style>
                 body {{ font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }}
                 .container {{ width: 100%; padding: 20px; background-color: #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 600px; margin: 20px auto; }}
-                .header {{ background-color: #4CAF50; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
+                .header {{ background-color: #329cd1; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
                 .content {{ padding: 20px; }}
                 .content h2 {{ color: #333333; }}
                 .content p {{ line-height: 1.6; color: #666666; }}
                 .footer {{ margin-top: 20px; text-align: center; font-size: 12px; color: #999999; }}
-                .footer a {{ color: #4CAF50; text-decoration: none; }}
+                .footer a {{ color: #329cd1; text-decoration: none; }}
             </style>
         </head>
         <body>
@@ -215,15 +215,15 @@ public class EmailService : IEmailService
                     <h1>Password Reset Successfully</h1>
                 </div>
                 <div class='content'>
-                    <h2>Hello {username},</h2>
-                    <p>Your password has been reset successfully. If you did not request this change, please contact our support team immediately.</p>
+                    <h2>Chào {username},</h2>
+                    <p>Mật khẩu của bạn đã được đặt lại thành công. Nếu bạn không yêu cầu thay đổi này, vui lòng liên hệ ngay với bộ phận hỗ trợ của chúng tôi.</p>
                     <br>
-                    <p>Best regards,</p>
-                    <p>The Harmony Team</p>
+                    <p>Trân trọng,</p>
+                    <p>Đội ngũ Appchat</p>
                 </div>
                 <div class='footer'>
-                    <p>&copy; {DateTime.Now.Year} Harmony. All rights reserved.</p>
-                    <p><a href='https://yourapp.com/privacy'>Privacy Policy</a> | <a href='https://yourapp.com/terms'>Terms of Service</a></p>
+                    <p>&copy; {DateTime.Now.Year} Appchat. Bảo lưu tất cả quyền.</p>
+                    <p><a href='https://yourapp.com/privacy'>Chính sách bảo mật</a> | <a href='https://yourapp.com/terms'>Điều khoản dịch vụ</a></p>
                 </div>
             </div>
         </body>
@@ -238,12 +238,12 @@ public class EmailService : IEmailService
             <style>
                 body {{ font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }}
                 .container {{ width: 100%; padding: 20px; background-color: #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 600px; margin: 20px auto; }}
-                .header {{ background-color: #4CAF50; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
+                .header {{ background-color: #329cd1; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
                 .content {{ padding: 20px; }}
                 .content h2 {{ color: #333333; }}
                 .content p {{ line-height: 1.6; color: #666666; }}
                 .footer {{ margin-top: 20px; text-align: center; font-size: 12px; color: #999999; }}
-                .footer a {{ color: #4CAF50; text-decoration: none; }}
+                .footer a {{ color: #329cd1; text-decoration: none; }}
             </style>
         </head>
         <body>
@@ -252,15 +252,15 @@ public class EmailService : IEmailService
                     <h1>Email Confirmation</h1>
                 </div>
                 <div class='content'>
-                    <h2>Hello {firstName} {lastName},</h2>
-                    <p>Your email has been changed successfully. If you did not make this change, please contact our support team immediately.</p>
+                    <h2>Chào {firstName} {lastName},</h2>
+                    <p>Email của bạn đã được thay đổi thành công. Nếu bạn không thực hiện thay đổi này, vui lòng liên hệ ngay với bộ phận hỗ trợ của chúng tôi.</p>
                     <br>
-                    <p>Best regards,</p>
-                    <p>The Harmony Team</p>
+                    <p>Trân trọng,</p>
+                    <p>Đội ngũ Appchat</p>
                 </div>
                 <div class='footer'>
-                    <p>&copy; {DateTime.Now.Year} Harmony. All rights reserved.</p>
-                    <p><a href='https://yourapp.com/privacy'>Privacy Policy</a> | <a href='https://yourapp.com/terms'>Terms of Service</a></p>
+                    <p>&copy; {DateTime.Now.Year} Appchat. Bảo lưu tất cả quyền.</p>
+                    <p><a href='https://yourapp.com/privacy'>Chính sách bảo mật</a> | <a href='https://yourapp.com/terms'>Điều khoản dịch vụ</a></p>
                 </div>
             </div>
         </body>
@@ -275,13 +275,13 @@ public class EmailService : IEmailService
         <style>
             body {{ font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }}
             .container {{ width: 100%; padding: 20px; background-color: #ffffff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; max-width: 600px; margin: 20px auto; }}
-            .header {{ background-color: #4CAF50; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
+            .header {{ background-color: #329cd1; color: white; padding: 10px 0; text-align: center; border-radius: 10px 10px 0 0; }}
             .content {{ padding: 20px; }}
             .content h2 {{ color: #333333; }}
             .content p {{ line-height: 1.6; color: #666666; }}
             .footer {{ margin-top: 20px; text-align: center; font-size: 12px; color: #999999; }}
-            .footer a {{ color: #4CAF50; text-decoration: none; }}
-            .button {{ display: inline-block; padding: 10px 20px; margin: 20px 0; font-size: 16px; color: #ffffff; background-color: #4CAF50; border-radius: 5px; text-decoration: none; color: white; }}
+            .footer a {{ color: #329cd1; text-decoration: none; }}
+            .button {{ display: inline-block; padding: 10px 20px; margin: 20px 0; font-size: 16px; color: #ffffff; background-color: #329cd1; border-radius: 5px; text-decoration: none; color: white; }}
         </style>
     </head>
     <body>
@@ -290,17 +290,18 @@ public class EmailService : IEmailService
                 <h1>Email Confirmation</h1>
             </div>
             <div class='content'>
-                <h2>Hello {firstName} {lastName},</h2>
-                <p>Thank you for registering. Please click the button below to confirm your email address.</p>
-                <p><a href='{confirmationLink}' class='button' style='color: white;'>Confirm Email</a></p>
-                <br>
-                <p>Best regards,</p>
-                <p>The Harmony Team</p>
-            </div>
-            <div class='footer'>
-                <p>&copy; {DateTime.Now.Year} Harmony. All rights reserved.</p>
-                <p><a href='https://yourapp.com/privacy'>Privacy Policy</a> | <a href='https://yourapp.com/terms'>Terms of Service</a></p>
-            </div>
+        <h2>Chào {firstName} {lastName},</h2>
+            <p>Cảm ơn bạn đã đăng ký. Vui lòng nhấn vào nút dưới đây để xác nhận địa chỉ email của bạn.</p>
+            <p><a href='{confirmationLink}' class='button' style='color: white;'>Xác nhận Email</a></p>
+            <br>
+            <p>Trân trọng,</p>
+            <p>Đội ngũ App chat</p>
+        </div>
+        <div class='footer'>
+            <p>&copy; {DateTime.Now.Year} Appchat. Bảo lưu tất cả quyền.</p>
+            <p><a href='https://yourapp.com/privacy'>Chính sách bảo mật</a> | <a href='https://yourapp.com/terms'>Điều khoản dịch vụ</a></p>
+        </div>
+
         </div>
     </body>
     </html>";
