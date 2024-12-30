@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "DLkuTlOzIVN4bT6yEpyXhH9u6Tc6oVfWXEeJDFWaHFo=",
+  "Source": "ChatAppServer.WebAPI",
+  "BasePath": "_content/ChatAppServer.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChatAppServer.WebAPI\\wwwroot",
+      "Source": "ChatAppServer.WebAPI",
+      "ContentRoot": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ChatAppServer.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\59e309c6-cef5-4f49-a5f2-ce37238acda6.jpg",
+      "SourceId": "ChatAppServer.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ChatAppServer.WebAPI",
+      "RelativePath": "avatars/59e309c6-cef5-4f49-a5f2-ce37238acda6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i7xckbggmk",
+      "Integrity": "HtP5K+kkDltNhsw7MUqPyu60G9ssSdSx4LSj6TQIutw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\avatars\\59e309c6-cef5-4f49-a5f2-ce37238acda6.jpg"
+    },
+    {
+      "Identity": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\a9991d61-6c43-4d51-92dc-f910c501f73e.png",
+      "SourceId": "ChatAppServer.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ChatAppServer.WebAPI",
+      "RelativePath": "avatars/a9991d61-6c43-4d51-92dc-f910c501f73e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qxjpj17tij",
+      "Integrity": "Lnjoe+Kif6Ejwbj+GXdLl6uBHQDWbXMbr7MJi4CrN84=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\avatars\\a9991d61-6c43-4d51-92dc-f910c501f73e.png"
+    },
+    {
+      "Identity": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\cf641c37-c9dd-44f6-a749-5a96f5139b49.jpg",
+      "SourceId": "ChatAppServer.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ChatAppServer.WebAPI",
+      "RelativePath": "avatars/cf641c37-c9dd-44f6-a749-5a96f5139b49#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iq2j8kx243",
+      "Integrity": "mvxMY+Fi06cycZfTpj3qKTNQXT56yIQiIr/98LmXUhE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\avatars\\cf641c37-c9dd-44f6-a749-5a96f5139b49.jpg"
+    },
+    {
+      "Identity": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\example.jpg",
+      "SourceId": "ChatAppServer.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ChatAppServer.WebAPI",
+      "RelativePath": "avatars/example#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ltfr8yrqfa",
+      "Integrity": "J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\avatars\\example.jpg"
+    },
+    {
+      "Identity": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\ff044427-6dd0-44bd-95e2-4193ee82fa4c.jpg",
+      "SourceId": "ChatAppServer.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ChatAppServer.WebAPI",
+      "RelativePath": "avatars/ff044427-6dd0-44bd-95e2-4193ee82fa4c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m2x53lf91y",
+      "Integrity": "rr2Lfi0tE9woueGcfGL3yY1JF7vFzVNmP8gHgCmujlQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\avatars\\ff044427-6dd0-44bd-95e2-4193ee82fa4c.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "avatars/59e309c6-cef5-4f49-a5f2-ce37238acda6.i7xckbggmk.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\59e309c6-cef5-4f49-a5f2-ce37238acda6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "167464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HtP5K+kkDltNhsw7MUqPyu60G9ssSdSx4LSj6TQIutw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:53:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i7xckbggmk"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/59e309c6-cef5-4f49-a5f2-ce37238acda6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HtP5K+kkDltNhsw7MUqPyu60G9ssSdSx4LSj6TQIutw="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/59e309c6-cef5-4f49-a5f2-ce37238acda6.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\59e309c6-cef5-4f49-a5f2-ce37238acda6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "167464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HtP5K+kkDltNhsw7MUqPyu60G9ssSdSx4LSj6TQIutw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:53:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HtP5K+kkDltNhsw7MUqPyu60G9ssSdSx4LSj6TQIutw="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/a9991d61-6c43-4d51-92dc-f910c501f73e.png",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\a9991d61-6c43-4d51-92dc-f910c501f73e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lnjoe+Kif6Ejwbj+GXdLl6uBHQDWbXMbr7MJi4CrN84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:55:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lnjoe+Kif6Ejwbj+GXdLl6uBHQDWbXMbr7MJi4CrN84="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/a9991d61-6c43-4d51-92dc-f910c501f73e.qxjpj17tij.png",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\a9991d61-6c43-4d51-92dc-f910c501f73e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lnjoe+Kif6Ejwbj+GXdLl6uBHQDWbXMbr7MJi4CrN84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:55:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxjpj17tij"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/a9991d61-6c43-4d51-92dc-f910c501f73e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lnjoe+Kif6Ejwbj+GXdLl6uBHQDWbXMbr7MJi4CrN84="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/cf641c37-c9dd-44f6-a749-5a96f5139b49.iq2j8kx243.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\cf641c37-c9dd-44f6-a749-5a96f5139b49.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "953412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mvxMY+Fi06cycZfTpj3qKTNQXT56yIQiIr/98LmXUhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:51:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iq2j8kx243"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/cf641c37-c9dd-44f6-a749-5a96f5139b49.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mvxMY+Fi06cycZfTpj3qKTNQXT56yIQiIr/98LmXUhE="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/cf641c37-c9dd-44f6-a749-5a96f5139b49.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\cf641c37-c9dd-44f6-a749-5a96f5139b49.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "953412"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mvxMY+Fi06cycZfTpj3qKTNQXT56yIQiIr/98LmXUhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:51:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mvxMY+Fi06cycZfTpj3qKTNQXT56yIQiIr/98LmXUhE="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/example.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\example.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 06:57:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/example.ltfr8yrqfa.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\example.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18983"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 06:57:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ltfr8yrqfa"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/example.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J3el/jDtQvS/YDy5sScr0WU5UUPnumLF5VITQxPLQkA="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/ff044427-6dd0-44bd-95e2-4193ee82fa4c.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\ff044427-6dd0-44bd-95e2-4193ee82fa4c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rr2Lfi0tE9woueGcfGL3yY1JF7vFzVNmP8gHgCmujlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:49:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rr2Lfi0tE9woueGcfGL3yY1JF7vFzVNmP8gHgCmujlQ="
+        }
+      ]
+    },
+    {
+      "Route": "avatars/ff044427-6dd0-44bd-95e2-4193ee82fa4c.m2x53lf91y.jpg",
+      "AssetFile": "D:\\STUDYED\\NET2024\\appchat3\\AppChatAPI\\ChatAppServer.WebAPI\\wwwroot\\avatars\\ff044427-6dd0-44bd-95e2-4193ee82fa4c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rr2Lfi0tE9woueGcfGL3yY1JF7vFzVNmP8gHgCmujlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 16:49:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m2x53lf91y"
+        },
+        {
+          "Name": "label",
+          "Value": "avatars/ff044427-6dd0-44bd-95e2-4193ee82fa4c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rr2Lfi0tE9woueGcfGL3yY1JF7vFzVNmP8gHgCmujlQ="
+        }
+      ]
+    }
+  ]
+}
