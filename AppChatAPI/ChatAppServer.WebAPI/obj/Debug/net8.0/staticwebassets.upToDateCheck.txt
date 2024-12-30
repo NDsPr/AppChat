@@ -1,5 +1,0 @@
-wwwroot\avatars\59e309c6-cef5-4f49-a5f2-ce37238acda6.jpg
-wwwroot\avatars\a9991d61-6c43-4d51-92dc-f910c501f73e.png
-wwwroot\avatars\cf641c37-c9dd-44f6-a749-5a96f5139b49.jpg
-wwwroot\avatars\example.jpg
-wwwroot\avatars\ff044427-6dd0-44bd-95e2-4193ee82fa4c.jpg
