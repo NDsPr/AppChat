@@ -12,19 +12,21 @@
 
 /* Hiệu ứng hover cho form */
 .form-container:hover {
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Độ bóng đậm hơn */
   transform: translateY(-5px);
 }
 
-/* Tiêu đề */
+
 .form-container h2 {
   text-align: center;
   margin-bottom: 25px;
-  font-size: 1.75rem;
-  color: #333;
+  font-size: 2.75rem;
+  color: yellow;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;
 }
+
 
 /* Các khối của form */
 .form-container form div {
@@ -55,7 +57,7 @@
 
 /* Hiệu ứng khi ô nhập liệu được chọn */
 .form-container input:focus {
-  border-color: #007bff;
+  border-color: #00796b;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
   outline: none;
 }
@@ -79,26 +81,29 @@
 /* Nút đăng ký và chọn avatar có cùng kiểu */
 .form-container .submit-btn,
 .form-container .avatar-upload-label {
-  background-color: #007bff;
+  background-color: #65A69A;
   color: white;
 }
 
 .form-container .submit-btn:hover,
 .form-container .avatar-upload-label:hover {
-  background-color: #0056b3;
+  background-color: #466E73;
   transform: translateY(-3px);
+  border: 2px solid white; /* Thêm viền trắng */
 }
+
 
 /* Nút hủy */
 .form-container .cancel-btn {
   background-color: #f0f0f0;
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #65A69A;
+  border: 1px solid #65A69A;
 }
 
 .form-container .cancel-btn:hover {
-  background-color: #e6e6e6;
-  color: #0056b3;
+  background-color: #00796b;
+  color: white;
+  border: 2px solid white;
   transform: translateY(-3px);
 }
 
@@ -127,7 +132,7 @@
   justify-content: center;
   width: 100%;
   padding: 14px;
-  background-color: #007bff;
+  background-color: #65A69A;
   color: #fff;
   border-radius: 6px;
   cursor: pointer;
@@ -144,7 +149,7 @@
 
 /* Hiệu ứng khi di chuột qua nút chọn ảnh đại diện */
 .avatar-upload-label:hover {
-  background-color: #0056b3;
+  background-color: #00796b;
   transform: translateY(-3px);
 }
 
