@@ -1,0 +1,50 @@
+<div class="form-container">
+  <h2>Đăng Ký</h2>
+  <form (submit)="onRegister()">
+
+    <div>
+      <label for="firstName">Họ:</label>
+      <input type="text" id="firstName" [(ngModel)]="firstName" name="firstName" required placeholder="Nhập họ của bạn">
+    </div>
+    <div>
+      <label for="lastName">Tên:</label>
+      <input type="text" id="lastName" [(ngModel)]="lastName" name="lastName" required placeholder="Nhập tên của bạn">
+    </div>
+    <div>
+      <label for="birthday">Ngày Sinh:</label>
+      <input type="date" id="birthday" [(ngModel)]="birthday" name="birthday" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" [(ngModel)]="email" name="email" required placeholder="Nhập email của bạn">
+    </div>
+    <div>
+      <label for="username">Tên Đăng Nhập:</label>
+      <input type="text" id="username" [(ngModel)]="username" name="username" required placeholder="Nhập tên đăng nhập của bạn">
+    </div>
+    <div>
+      <label for="password">Mật Khẩu:</label>
+      <input type="password" id="password" [(ngModel)]="password" name="password" required placeholder="Nhập mật khẩu của bạn">
+    </div>
+    <div>
+      <label for="retypePassword">Nhập Lại Mật Khẩu:</label>
+      <input type="password" id="retypePassword" [(ngModel)]="retypePassword" name="retypePassword" required placeholder="Nhập lại mật khẩu của bạn">
+    </div>
+
+    <div *ngIf="avatarPreview" class="avatar-preview">
+      <img [src]="avatarPreview" alt="Xem Trước Ảnh Đại Diện">
+    </div>
+
+    <div class="avatar-upload-container">
+      <label for="avatar" class="avatar-upload-label"><i class="fas fa-upload"></i> Chọn Ảnh Đại Diện</label>
+      <input type="file" id="avatar" class="avatar-upload-input" (change)="onFileSelected($event)">
+    </div>
+
+    <button type="submit" class="submit-btn">Đăng Ký</button>
+    <button type="button" class="cancel-btn" (click)="onCancel()">Hủy</button>
+  </form>
+
+  <div *ngIf="errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+</div>
