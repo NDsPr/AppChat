@@ -16,19 +16,19 @@ export class ForgotPasswordComponent {
 
   onForgotPassword(): void {
     if (!this.username) {
-      this.errorMessage = 'Username is required';
+      this.errorMessage = 'Tên đăng nhập là bắt buộc';
       return;
     }
     this.authService.forgotPassword(this.username).subscribe({
       next: response => {
-        this.successMessage = "Password reset email sent. Please check your inbox.";
+        this.successMessage = "Email đặt lại mật khẩu đã gửi. Vui lòng kiểm tra hộp thư đến của bạn.";
         this.errorMessage = null;
       },
       error: error => {
         if (error.status === 400 && error.error.errors) {
-          console.log('Validation errors:', error.error.errors);
+          console.log('Lỗi xác thực:', error.error.errors);
         }
-        this.errorMessage = error.error.title || 'Failed to send password reset email.';
+        this.errorMessage = error.error.title || 'Không gửi được email đặt lại mật khẩu.';
         this.successMessage = null;
       }
     });

@@ -57,7 +57,7 @@
 
 /* Hiệu ứng khi ô nhập liệu được chọn */
 .login-container input:focus {
-  border-color: #007bff;
+  border-color: #00796b;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
   outline: none;
 }
@@ -102,7 +102,7 @@
 /* Liên kết quên mật khẩu và liên kết đăng ký */
 .forgot-password-link a,
 .register-link a {
-  color: #007bff;
+  color: #00796b;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 }
