@@ -1,15 +1,15 @@
 <div class="login-container">
-  <h2>Login</h2>
+  <h2>Đăng nhập</h2>
   <form (submit)="onLogin()">
     <div>
-      <label for="username">Username:</label>
+      <label for="username">Tên đăng nhập:</label>
       <input type="text" id="username" [(ngModel)]="username" name="username" required>
     </div>
     <div>
-      <label for="password">Password:</label>
+      <label for="password">Mật khẩu:</label>
       <input type="password" id="password" [(ngModel)]="password" name="password" required>
     </div>
-    <button type="submit">Login</button>
+    <button type="submit">Đăng nhập</button>
   </form>
 
   <div *ngIf="errorMessage" class="error-message">
@@ -17,10 +17,10 @@
   </div>
 
   <div class="forgot-password-link">
-    <a routerLink="/forgot-password">Forgot Password?</a>
+    <a routerLink="/forgot-password">Quên mật khẩu?</a>
   </div>
 
   <div class="register-link">
-    <p>Don't have an account? <a routerLink="/register">Register here</a></p>
+    <p> Không có tài khoản? <a routerLink="/register">Đăng ký ngay</a></p>
   </div>
 </div>

@@ -48,10 +48,10 @@ export class LoginComponent {
         }
       },
       error: (error) => {
-        console.error("Login failed", error);
+        console.error("Đăng nhập lỗi", error);
 
         // Hiển thị thông báo lỗi nếu có
-        this.errorMessage = error.error.message || "Login failed. Please check your credentials and try again.";
+        this.errorMessage = error.error.message || "Lỗi đăng nhập. Hãy kiểm tra lại. ";
       }
     });
   }

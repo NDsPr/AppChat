@@ -1,12 +1,14 @@
 /* Giao diện chính của form đăng nhập */
 .login-container {
-  max-width: 400px; /* Tăng chiều rộng tối đa để form rộng hơn */
+  max-width: 500px; /* Tăng chiều rộng tối đa để form rộng hơn */
+  height: 600px;
   margin: 0 auto;
+  margin-top: 30px;
   padding: 30px;
   border-radius: 10px;
   background-color: #ffffff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e0e0e0;
+  border: 3px solid #65A69A;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -20,8 +22,8 @@
 .login-container h2 {
   text-align: center;
   margin-bottom: 25px;
-  font-size: 1.75rem;
-  color: #333;
+  font-size: 2.75rem;
+  color: #00796b;
   font-family: 'Roboto', sans-serif; /* Sử dụng font hiện đại */
   font-weight: 700;
 }
@@ -64,7 +66,7 @@
 .login-container button {
   width: 100%;
   padding: 12px;
-  background-color: #007bff;
+  background-color: #00796b;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -76,8 +78,10 @@
 
 /* Hiệu ứng khi di chuột qua nút đăng nhập */
 .login-container button:hover {
-  background-color: #0056b3;
+  background-color: #65A69A;
+  border: 3px solid #00796b;
   transform: translateY(-2px);
+  color: white;
 }
 
 /* Thông báo lỗi */
